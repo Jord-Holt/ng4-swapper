@@ -13,7 +13,7 @@ Once I got to a good point with my solution. I felt this tool may actually be us
 With all that said....how the heck does this thing actually work? See Quick Start for your answer.
 
 
-### Quick Start
+### Getting Started
 
 Getting up and running with Swapper is easy. We will demonstrate with an example, say we have a parent landing component for our app with various child components to allow the user to login, register, reset password, etc. 
 These are the steps we would follow to get up and going. Note that while I explain methods used in these examples, all of the provided library methods are outlined in the Methods section of this readme.
