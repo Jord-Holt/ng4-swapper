@@ -14,12 +14,9 @@ export class Swapper {
         if(!component) { throw Error('Invalid or incomplete information given in component swap parameters.'); }
         if(!this.getSwappableComponentByName(component)) { throw Error('Component requested to swap to is not registered to Swapper.'); }
 
-        if(this.lastComponent) {
-            this.deactivateComponent(this.lastComponent);
-            this.activateComponent(component);
-        } else {
-            this.activateComponent(component);
-        }
+        if(this.lastComponent) { this.deactivateComponent(this.lastComponent); }
+
+        this.activateComponent(component);
 
     }
 
