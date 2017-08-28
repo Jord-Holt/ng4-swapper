@@ -24,7 +24,7 @@ These are the steps we would follow to get up and going. Note that while I expla
     npm install ng4-swapper
 ```
 
-You may prefer to go ahead and add this to your package.json, simply append --save-dev to the above command and you are set.
+You may prefer to go ahead and add this to your package.json, simply append --save to the above command and you are set.
 
 2 - Go to the landing component (parent component) ts that will be holding all of our child components and add this to import the package.
 
