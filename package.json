@@ -1,6 +1,6 @@
 {
   "name": "ng4-swapper",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "A simple facade that leverages angular 4 animations to centralize animation logic for the use case of having child components that are swapped out from the parent using a common animation.",
   "main": "index.js",
   "repository" : { "type" : "git", "url" : "https://github.com/DatJord/ng4-swapper" },
