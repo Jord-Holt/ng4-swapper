@@ -141,7 +141,7 @@ export class RegistrationComponent {
         this.userServices.register(this.firstname, this.lastname, this.username, this.email, this.password, this.repeatpassword).subscribe(response => {
 
             this.errortext = '';
-            this.toastr.success('User created, welcome to Dominus.', 'Success', { positionClass: 'toast-top-center' });
+            this.toastr.success('User created, welcome to the App!', 'Success', { positionClass: 'toast-top-center' });
             this.swapper.swapTo('login');
 
         }, error => {
