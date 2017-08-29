@@ -21,7 +21,7 @@ These are the steps we would follow to get up and going. Note that while I expla
 1 - Install swapper from your terminal.
 
 ```
-    npm install ng4-swapper
+    npm install ng4-swapper --save
 ```
 
 You may prefer to go ahead and add this to your package.json, simply append --save to the above command and you are set.
